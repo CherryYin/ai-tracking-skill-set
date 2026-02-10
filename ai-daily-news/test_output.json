@@ -1,0 +1,125 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-02-08 16:29:19",
+  "entries": [
+    {
+      "title": "Don't fall into the anti-AI hype",
+      "url": "https://antirez.com/news/158",
+      "summary": 1296,
+      "points": 1296,
+      "created_at": "2026-01-11 10:26:18",
+      "source": "hacker_news",
+      "type": "news",
+      "image": null
+    },
+    {
+      "title": "AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'",
+      "url": "https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers",
+      "summary": 1073,
+      "points": 1073,
+      "created_at": "2025-12-17 17:08:35",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "https://cdn.prod.website-files.com/6660a5bfdcf6c5fbf039f446/69428e2d7c764c046536a548_AWS%20CEO%20Junior%20Developers%20AI.jpg"
+    },
+    {
+      "title": "AirPods libreated from Apple's ecosystem",
+      "url": "https://github.com/kavishdevar/librepods",
+      "summary": 1424,
+      "points": 1424,
+      "created_at": "2025-11-16 00:01:25",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "https://repository-images.githubusercontent.com/863717537/80b4f2f1-52f9-4c3e-b32a-779933701089"
+    },
+    {
+      "title": "AI World Clocks",
+      "url": "https://clocks.brianmoore.com/",
+      "summary": 1383,
+      "points": 1383,
+      "created_at": "2025-11-14 18:35:22",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "/shareimage.webp"
+    },
+    {
+      "title": "I think nobody wants AI in Firefox, Mozilla",
+      "url": "https://manualdousuario.net/en/mozilla-firefox-window-ai/",
+      "summary": 1275,
+      "points": 1275,
+      "created_at": "2025-11-14 14:05:00",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "https://manualdousuario.net/wp-content/uploads/2025/11/window-ai-firefox.png"
+    },
+    {
+      "title": "It's insulting to read AI-generated blog posts",
+      "url": "https://blog.pabloecortez.com/its-insulting-to-read-your-ai-generated-blog-post/",
+      "summary": 1300,
+      "points": 1300,
+      "created_at": "2025-10-27 15:27:38",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+    },
+    {
+      "title": "You did this with an AI and you do not understand what you're doing here",
+      "url": "https://hackerone.com/reports/3340109",
+      "summary": 1178,
+      "points": 1178,
+      "created_at": "2025-09-22 07:59:37",
+      "source": "hacker_news",
+      "type": "news",
+      "image": "https://profile-photos.hackerone-user-content.com/variants/000/035/663/2faf4c279d437d64bfda6d23d62ce1833813a4d9_original.png/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1"
+    },
+    {
+      "title": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+      "url": "https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/",
+      "summary": 1697,
+      "points": 1697,
+      "created_at": "2025-08-21 12:53:16",
+      "source": "hacker_news",
+      "type": "news",
+      "image": null
+    },
+    {
+      "title": "Shared LoRA Subspaces for almost Strict Continual Learning",
+      "url": "https://arxiv.org/abs/2602.06043v1",
+      "arxiv_id": "2602.06043v1",
+      "summary": "Adapting large pretrained models to new tasks efficiently and continually is crucial for real-world deployment but remains challenging due to catastrophic forgetting and the high cost of retraining. While parameter-efficient tuning methods like low rank adaptation (LoRA) reduce computational demands...",
+      "authors": "Prakhar Kaushik, Ankit Vaidya, Shravan Chaudhari, Rama Chellappa, Alan Yuille",
+      "published": "2026-02-05",
+      "source": "arxiv",
+      "type": "paper",
+      "images": [
+        "https://arxiv.org/html/2602.06043v1/x6.png",
+        "https://arxiv.org/html/2602.06043v1/x3.png",
+        "https://arxiv.org/html/2602.06043v1/figures/Flux_supp_updated.jpg",
+        "https://arxiv.org/html/2602.06043v1/x1.png",
+        "https://arxiv.org/html/2602.06043v1/x2.png"
+      ]
+    },
+    {
+      "title": "Pseudo-Invertible Neural Networks",
+      "url": "https://arxiv.org/abs/2602.06042v1",
+      "arxiv_id": "2602.06042v1",
+      "summary": "The Moore-Penrose Pseudo-inverse (PInv) serves as the fundamental solution for linear systems. In this paper, we propose a natural generalization of PInv to the nonlinear regime in general and to neural networks in particular. We introduce Surjective Pseudo-invertible Neural Networks (SPNN), a class...",
+      "authors": "Yamit Ehrlich, Nimrod Berman, Assaf Shocher",
+      "published": "2026-02-05",
+      "source": "arxiv",
+      "type": "paper",
+      "images": [
+        "https://arxiv.org/html/2602.06042v1/figs/spnn_attribs.jpg",
+        "https://arxiv.org/html/2602.06042v1/figs/spnn_fig_method.jpg",
+        "https://arxiv.org/html/2602.06042v1/figs/spnn_res.jpg",
+        "https://arxiv.org/html/2602.06042v1/figs/spnn_abl.jpg",
+        "https://arxiv.org/html/2602.06042v1/figs/spnn_quanti.png"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "news": 8,
+    "papers": 2
+  }
+}
