@@ -1,0 +1,6 @@
+[skill]
+  skill_package = "github-hot-repos.skill"
+  name = "github-hot-repos"
+  description = "搜索GitHub热门仓库，获取README内容，并生成分析报告。适用于趋势分析、技术调研、发现优质项目等场景。"
+  project_name = "GitHub分析技能"
+  project_description = "GitHub热门仓库分析"
