@@ -17,10 +17,21 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Local config (keep templates, ignore actual secrets)
+# Sensitive files (API keys, tokens, credentials)
 .env
+.env.local
+.env.*.local
 *.local
+config.local.json
+credentials.json
+*.pem
+*.key
+secrets/
 
 # Output files
 output/
 *.log
+
+# Token cache files
+*_token.json
+token_cache/
