@@ -19,7 +19,10 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 
 # ====================== 配置 ======================
-DEFAULT_MODEL = "doubao-seed-1-8-251228"
+# 默认使用阿里云百炼 qwen 模型
+DEFAULT_MODEL = "qwen3.5-plus"
+DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+DEFAULT_API_KEY = os.environ.get("DASHSCOPE_API_KEY", "")  # 从环境变量读取，默认用系统的
 DEFAULT_OUTPUT = "ai_daily_news.json"
 DEFAULT_HN_LIMIT = 8  # 默认获取8条新闻
 DEFAULT_ARXIV_LIMIT = 2  # 默认获取2篇论文
@@ -537,10 +540,21 @@ def generate_article(entries: List[Dict],
 生成文章:"""
 
     try:
-        # 初始化客户端
-        client_kwargs = {"api_key": "dummy"}
+        # 初始化客户端 - 默认使用阿里云百炼 qwen
+        client_kwargs = {}
+        
+        # 如果指定了 base_url，使用指定的；否则默认用百炼
         if base_url:
             client_kwargs["base_url"] = base_url
+        else:
+            client_kwargs["base_url"] = DEFAULT_BASE_URL
+            # 如果没有传入 api_key，使用默认的环境变量或系统配置
+            if not client_kwargs.get("api_key"):
+                # 尝试从环境变量读取百炼 API Key
+                api_key = os.environ.get("DASHSCOPE_API_KEY", "") or os.environ.get("ARK_API_KEY", "")
+                if api_key:
+                    client_kwargs["api_key"] = api_key
+                # 如果没有环境变量，OpenAI SDK 会自动找 OPENAI_API_KEY
         
         client = OpenAI(**client_kwargs)
         

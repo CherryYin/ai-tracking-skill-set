@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config (keep templates, ignore actual secrets)
+.env
+*.local
+
+# Output files
+output/
+*.log
